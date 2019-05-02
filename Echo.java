@@ -1,13 +1,11 @@
 /* My Sir G -- Lecture - 9 -- Command Line Arguments */
-/* Program For Multiple Arguments */
+/* Program For Single Arguments */
 /***********************************************************/
-
 public class Echo
 {
 	public static void main(String[] args)
 	{
-		for(int i=0; i<args.length; i++)
-			System.out.println(args[i]);
+		System.out.println(args[0]);
 	}
 }
 
@@ -18,5 +16,4 @@ public class Echo
 	java Echo Bhanu Gudheniya
 */
 
-/**Bhanu
-   Gudheniya*/
+/**Bhanu */
